@@ -8,4 +8,5 @@ def hello():
 
 @app.route("/contactos")
 def contacto():
-    return render_template ("index.html")
+    nomeAula ="Aula python para Web"
+    return render_template ("index.html", nome=nomeAula)

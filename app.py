@@ -24,4 +24,4 @@ posts = [
 ]
 @app.route("/")
 def index():
-    return render_template("index.html", post=posts)
+    return render_template("index.html", posts=posts)
